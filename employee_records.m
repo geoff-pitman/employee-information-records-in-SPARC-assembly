@@ -147,9 +147,9 @@ eatCR:
 !   int readEmployee(employeeRecord* recAdrs);
 !
 !   // Called by readEmployee to get address of name string.
-!   // "This function ammlocs space for a string, prompts
-!   // and inputs a name into the string, and returns the address"
-!   // where the string was allocated.
+!   // "This function mallocs space for a string, prompts
+!   // and inputs a name into the string, and returns the address
+!   // [where the string was allocated].
 !   // The caller stores that address in the caller's frame.
 !   // If the user entered ^D, it returns 0."
 !   // Return value: pointer to dynamically allocated string
