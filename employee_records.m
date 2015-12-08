@@ -5,7 +5,7 @@
   Course: CSC235-210
   Professor: Dr. Spiegel
   Assignment: #4
-  Filename: p4.m
+  Filename: employee_records.m
   Description: This program will input up to 5 employee records from keyboard.
                A menu prompt will be presented to the user allowing them to
                print all records, print records by specified gender, or quit.
