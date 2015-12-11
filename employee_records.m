@@ -10,15 +10,6 @@
                A menu prompt will be presented to the user allowing them to
                print all records, print records by specified gender, or quit.
                [ctrl-d to quit]
- 
- NOTE1:: The name string is, unfortunately, not limited to 25 chars
- 
- NOTE2:: Rather than regurgitate everything you already wrote down on the
-         project specs handout back into documentation I thought it would 
-         be more fun to translate the information into a C function signature.  
-         And anyone that passed your 136 class should be able to look at the 
-         signature and interpret all the information that was included in 
-         the project spec!
 *****************************************************************************/
 
 !            Main's frame stack: 12 bytes wide  
@@ -144,7 +135,7 @@ eatCR:
 !   //  Will call readName to input the name string.
 !   //  Takes data and saves into record in main's frame."
 !   //  Return value: 0 if ctrl-d hit, 1 otherwise
-!   int readEmployee(employeeRecord* recAdrs);
+!   int readEmployee(employeeRecord** recAdrs);
 !
 !   // Called by readEmployee to get address of name string.
 !   // "This function mallocs space for a string, prompts
