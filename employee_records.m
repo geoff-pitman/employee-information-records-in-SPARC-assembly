@@ -10,6 +10,9 @@
                A menu prompt will be presented to the user allowing them to
                print all records, print records by specified gender, or quit.
                [ctrl-d to quit]
+               
+ **NOTE:: Optimized with pure register parameter passing and returns
+          
 *****************************************************************************/
 
 !            Main's frame stack: 12 bytes wide  
