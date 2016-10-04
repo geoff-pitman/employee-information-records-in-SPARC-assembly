@@ -1,10 +1,6 @@
 /******************************************************************************
   Author: Geoffrey Pitman
   Created: 11/30/2015
-  Due: 12/5/2015
-  Course: CSC235-210
-  Professor: Dr. Spiegel
-  Assignment: #4
   Filename: employee_records.m
   Description: This program will input up to 5 employee records from keyboard.
                A menu prompt will be presented to the user allowing them to
